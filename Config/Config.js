@@ -1,9 +1,9 @@
 // background slideshow //
 const images = [
-  '/lib/bg-1.gif',
-  '/lib/bg-2.gif',
-  '/lib/bg-3.gif',
-  '/lib/bg-4.gif'
+  'lib/bg-1.gif',
+  'lib/bg-2.gif',
+  'lib/bg-3.gif',
+  'lib/bg-4.gif'
 ];
 
 const layers = images.map((_, i) => document.getElementById(`bg${i + 1}`));
@@ -108,3 +108,4 @@ document.addEventListener('click', e => {
     if (popup) popup.style.display = 'none';
   }
 });
+

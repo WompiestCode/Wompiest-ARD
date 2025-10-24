@@ -1,7 +1,7 @@
 /* FONT IMPORT */
 @font-face {
   font-family: 'TitleFont';
-  src: url('Lib/Quantico/Quantico-Bold.ttf') format('truetype');
+  src: url('https://wompiestcode.github.io/Wompiest-ARD/Lib/Quantico/Quantico-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -445,7 +445,3 @@ html, body {
   .nav-title { font-size: 1.6rem; }
   .side-link { width: 42px; height: 42px; }
 }
-
-
-
-

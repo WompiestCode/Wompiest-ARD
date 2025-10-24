@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', () => {
 // background slideshow //
 const images = [
   'Lib/bg-1.gif',
@@ -109,4 +110,5 @@ document.addEventListener('click', e => {
   }
 });
 
+});
 

@@ -1,10 +1,8 @@
 /* FONT IMPORT */
-@font-face {
-  font-family: 'TitleFont';
-  src: local('Quantico');
-  font-weight: Bold;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+:root {
+  --title-font: 'Quantico', sans-serif;
 
 /* GLOBAL SETTINGS */
 html, body {
@@ -444,6 +442,7 @@ html, body {
   .nav-title { font-size: 1.6rem; }
   .side-link { width: 42px; height: 42px; }
 }
+
 
 
 

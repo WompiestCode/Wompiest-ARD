@@ -11,7 +11,7 @@ html, body {
   height: 100%;
   overflow: auto;
   box-sizing: border-box;
-  font-family: 'TitleFont', Arial, sans-serif;
+  font-family: var(--title-font);
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -49,7 +49,7 @@ html, body {
 }
 
 .nav-title, .social-box, .side-link, .back-btn, .popup-content {
-  font-family: 'TitleFont', sans-serif;
+  font-family: var(--title-font);
   color: #fff;
 }
 
@@ -164,7 +164,7 @@ html, body {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-  font-family: 'TitleFont', sans-serif;
+  font-family: var(--title-font);
   opacity: 0;
   animation: fadeInDelayed 2s ease forwards 0.5s;
   text-shadow: 2px 2px 0 #000, 4px 4px 0 #000, 6px 6px 0 #000;
@@ -180,7 +180,7 @@ html, body {
 
 /* WINDOW BASE */
 .blog-window, .about-window, .contact-window {
-  font-family: 'TitleFont', sans-serif;
+  font-family: var(--title-font);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -357,7 +357,7 @@ html, body {
   border-radius: 8px;
   background: rgba(255,255,255,0.1);
   color: #fff;
-  font-family: 'TitleFont', sans-serif;
+  font-family: var(--title-font);
   font-size: 1rem;
   outline: none;
   transition: all 0.25s ease;
@@ -371,7 +371,7 @@ html, body {
   border-radius: 8px;
   background: #fff;
   color: #000;
-  font-family: 'TitleFont', sans-serif;
+  font-family: var(--title-font);
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -442,6 +442,7 @@ html, body {
   .nav-title { font-size: 1.6rem; }
   .side-link { width: 42px; height: 42px; }
 }
+
 
 
 

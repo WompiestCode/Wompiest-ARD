@@ -1,7 +1,7 @@
 /* FONT IMPORT */
 @font-face {
   font-family: 'TitleFont';
-  src: url('Lib/Quantico-Bold.woff2') format('truetype');
+  src: url('Lib/Quantico-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -445,4 +445,5 @@ html, body {
   .nav-title { font-size: 1.6rem; }
   .side-link { width: 42px; height: 42px; }
 }
+
 

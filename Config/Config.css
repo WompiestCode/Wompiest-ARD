@@ -3,6 +3,7 @@
 
 :root {
   --title-font: 'Quantico', sans-serif;
+}
 
 /* GLOBAL SETTINGS */
 html, body {
@@ -13,6 +14,7 @@ html, body {
   box-sizing: border-box;
   font-family: var(--title-font);
 }
+  
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -442,6 +444,7 @@ html, body {
   .nav-title { font-size: 1.6rem; }
   .side-link { width: 42px; height: 42px; }
 }
+
 
 
 
